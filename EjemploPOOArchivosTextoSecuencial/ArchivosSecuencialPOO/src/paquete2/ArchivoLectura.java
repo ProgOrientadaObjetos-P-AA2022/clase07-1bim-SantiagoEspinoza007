@@ -62,7 +62,8 @@ public class ArchivoLectura {
         File f = new File(rutaArchivo);
 
         if (f.exists()) {
-
+            
+            //mirntras existan lineas en el archivo
             while (entrada.hasNext()) {
                 String linea = entrada.nextLine(); // Tara Hernandez;contratado
 
